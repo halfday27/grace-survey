@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace Survey</title>
+    <link rel="stylesheet" href="superstyle.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey for Grace</h1>
+    <p id="description">Totally Anonymous Survey</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name (Don't worry; we won't look)<input type="text" id="name" placeholder="Applebottom Jeans" required/></label>
+        <label id="email-label">Email <input type="email" id="email" placeholder="bootswiththe@fur.com" required/></label>
+        <label id="number-label">Age <input type="number" id="number" placeholder="The whole club was looking at her" min="19" max="19"/></label>
+      </fieldset>
+      <fieldset>
+        <label name="state"> How you doin'?
+          <iframe src="https://giphy.com/embed/jOmQmJkjcvB3Bc8CRb" width="200" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <select id="dropdown">
+            <option value="bad">Grr...</option>
+            <option value="ok">Mid</option>
+            <option value="good">I'm fine. How are you?</option>
+          </select>
+        </label>
+        <p>What do you think about that Axel guy?</p>
+        <label><input type="radio" name="feelings" value="hate" class="inline" /> I can't stand him</label>
+        <label><input type="radio" name="feelings" value="unfamiliar" class="inline" /> Who dat?</label>
+        <label><input type="radio" name="feelings" value="acquaintance" class="inline" checked /> He's mid</label>
+        <label><input type="radio" name="feelings" value="cool" class="inline" /> Axel's cool</label>
+        <label><input type="radio" name="feelings" value="greatest' class="inline" /> You mean Axel Adjei, the greatest scientific mind of our generation?</label>
+        <p>
+          Which of these do you wish Axel would do? <span class="clue">(Select all that apply)</span>
+        </p>
+        <label><input type="checkbox" name="wish" value="better-jokes" class="inline"> Make better jokes</label>
+        <label><input type="checkbox" name="wish" value="fewer-jokes" class="inline"> Crack fewer jokes</label>
+        <label><input type="checkbox" name="wish" value="time" class="inline"> Spend more time with you</label>
+        <label><input type="checkbox" name="wish" value="text" class="inline"> Text more</label>
+        <label><input type="checkbox" name="wish" value="call" class="inline"> Call more</label>
+        <label><input type="checkbox" name="wish" value="eat" checked class="inline"> Let you eat him</label>
+      </fieldset>
+      <fieldset>
+        <label> What is the airspeed velocity of an unladen swallow?
+          <textarea name="monty" rows="3" cols="30" placeholder="At least 3"></textarea>
+        </label>
+        <label> Tell me a story
+          <textarea name="story" rows="3" cols="30" placeholder="Friends are like potatoes; when you eat them, they die."></textarea>
+        </label>
+        <label> What can I do better?
+          <textarea name="monty" rows="10" cols="30" placeholder="Everything"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
+
+
