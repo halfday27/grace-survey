@@ -54,7 +54,7 @@ input, textarea {
 
 iframe {
   margin: -50 0 -50 5;
-  width: 80%
+  max-width: 80%
 }
 
 #submit {
