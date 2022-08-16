@@ -9,7 +9,7 @@ body {
 }
 
 form {
-  background-color: blue;
+  background-color: green;
   margin: 0 auto;
   width: 80%;
 }
@@ -54,7 +54,7 @@ input, textarea {
 
 iframe {
   margin: -50 0 -50 5;
-  max-width: 10%;
+  max-width: 60%;
 }
 
 #submit {
